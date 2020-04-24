@@ -653,7 +653,7 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  color: #575757;
 }
 
 .container {
@@ -715,11 +715,12 @@ em {
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 25px;
   line-height: 1.4em;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  color: #6d2325;
 }
 
 h3 {
@@ -1076,4 +1077,7 @@ strong {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+address a {
+  color: #fff;
 }

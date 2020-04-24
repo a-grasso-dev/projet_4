@@ -1914,10 +1914,12 @@ blockquote.pull-right small:after {
 }
 
 address {
+  color: #fff;
   font-style: normal;
   line-height: 1.42857143;
   text-align: center;
-  margin: 50px;
+  margin: 20px;
+  font-size: 17px;
 }
 
 code,
