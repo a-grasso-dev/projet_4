@@ -711,7 +711,9 @@ em {
   margin-top: 30px;
   margin-bottom: 40px;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
+  color: #fff;
 }
 
 h2 {
@@ -1058,6 +1060,7 @@ h4 {
 
 .row {
   margin: auto;
+  flex-direction: row;
 }
 
 strong {
