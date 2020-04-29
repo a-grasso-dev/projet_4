@@ -1079,3 +1079,9 @@ strong {
 address a {
   color: #fff;
 }
+
+@media (max-width: 375px) {
+  .row {
+    flex-direction: column;
+  }
+}
